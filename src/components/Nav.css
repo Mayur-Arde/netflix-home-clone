@@ -23,12 +23,12 @@
 .nav__logo{
   width: 80px;
   position: fixed;
-  left: 20px;
+  left: 30px;
 }
 
 .nav__avtar{
   width: 32px;
   height: 32px;
   position: fixed;
-  right: 35px;
+  right: 45px;
 }
