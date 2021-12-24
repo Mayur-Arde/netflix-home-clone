@@ -41,7 +41,7 @@ function Header() {
           <button className='banner__btn'>Play</button>
           <button className='banner__btn'>My List</button>
         </div>
-        <p className="banner__description">{truncate(movie?.overview, 280)}</p>
+        <p className="banner__description">{truncate(movie?.overview || 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia explicabo praesentium aut facere non nostrum, eos rem, soluta facilis ut fugiat nisi corrupti earum obcaecati iure doloremque aspernatur ipsam quaerat!', 280)}</p>
       </div>
         <div className="banner__fade"></div>
     </header>
