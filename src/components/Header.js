@@ -8,7 +8,7 @@ function Header() {
   const [movie, setMovie] = useState([]);
 
   const fetchApi = async () => {
-    const response = await axios.get(request.fetchNetflixOriginals);
+    const response = await axios.get(request.fetchTrending);
     setMovie(response.data.results[
       Math.floor(Math.random() * response.data.results.length - 1)
     ]);

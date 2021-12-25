@@ -1,5 +1,5 @@
 .nav__black{
-  background-color: rgb(7, 7, 7);
+  background-color: rgba(7, 7, 7, 0.945);
 }
 
 .nav{
@@ -23,12 +23,16 @@
 .nav__logo{
   width: 80px;
   position: fixed;
-  left: 30px;
+  left: 25px;
 }
 
 .nav__avtar{
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   position: fixed;
-  right: 45px;
+  right: 40px;
+}
+
+@media all and (max-width:450px){
+  
 }

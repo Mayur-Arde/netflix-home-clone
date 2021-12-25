@@ -1,7 +1,8 @@
 .banner{
   color: white;
   object-fit: contain;
-  height: 600px;
+  height: 570px;
+  padding-top: 70px;
 }
 
 .banner h1{
@@ -12,12 +13,11 @@
 
 .banner__content{
   position: absolute;
- /* padding-top: 250px; */
- padding: 200px 40px 10px;
+ padding: 130px 40px 10px;
 }
 
 .banner__buttons{
-  padding: 5px;
+  /* padding: 5px; */
 }
 
 .banner__btn{
@@ -47,7 +47,40 @@
 }
 
 .banner__fade{
- height: 38rem;
+ height: 36rem;
   background-image: linear-gradient(180deg, transparent,rgba(37, 37, 37, 0.507), rgb(17, 17, 17));
   z-index: -1;
+}
+
+/* media query for mobile view  */
+@media all and (max-width:450px){
+  .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75vh;
+    /* color: black; */
+    align-items: center;
+  }
+
+  .banner h1{
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+  }
+
+  .banner__content{
+    /* position: absolute; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding:0px 10px 0;
+    margin: 0 auto;
+  }
+
+  .banner__description{
+    margin: 0;
+    width: 15rem;
+    height: 95px;
+  }
 }
