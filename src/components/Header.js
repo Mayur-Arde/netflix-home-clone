@@ -36,7 +36,7 @@ function Header() {
       }}
     >
       <div className="banner__content">
-        <h1>{movie.title || movie.name}</h1>
+        {/* <h1>{movie.title || movie.name}</h1> */}
         <div className="banner__buttons">
           <button className='banner__btn'>Play</button>
           <button className='banner__btn'>My List</button>
